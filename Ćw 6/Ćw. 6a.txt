@@ -1,0 +1,23 @@
+Ćw. 6a
+Zad 1
+Id_produktu -> nazwa_produktu, cena_produktu, VAT
+Id_klienta -> nazwa_klienta, data_zamowienia, id_produktu, ilosc
+Cena_produktu -> ilość, suma_netto, id_produktu
+VAT -> id_produktu, nazwa_produktu
+Suma_brutto -> suma_netto, VAT
+
+Zad 2
+- id_produktu, id_klienta, data_zamowienia
+- nazwa_produktu, nazwa_klienta, data_zamowienia
+- id_produktu, nazwa_klienta, data_zamowienia
+- nazwa_produktu, nazwa_klienta, data_zamowienia
+
+Zad 3
+Id_pomieszczenia -> numer_pomieszczenia, id_budynku, powierzchnia, liczba_okien, liczba_drzwi
+Id_budynku -> ulica, miasto, kod_pocztowy
+Kod_pocztowy -> ulica, miasto
+
+- id_pomieszczenia
+- id_budynku, numer_pomieszczenia
+ 
+
